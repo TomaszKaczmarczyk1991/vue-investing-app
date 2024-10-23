@@ -1,3 +1,8 @@
 <template>
-    <div class="bg-red-500">test</div>
+    <CoinMarketCap />
 </template>
+
+<script setup>
+import CoinMarketCap from './CoinMarketCap.vue';
+
+</script>
